@@ -21,9 +21,9 @@ class MainActivity : AppCompatActivity() {
 
         bottom_navigation.setOnNavigationItemSelectedListener {
             when (it.itemId) {
-                R.id.ic__home_24 -> makeCurrentFragment(homeFragment)
-                R.id.ic__explore_24 -> makeCurrentFragment(exploreFragment)
-                R.id.ic__map_24 -> makeCurrentFragment(mapFragment)
+                R.id.ic__home -> makeCurrentFragment(homeFragment)
+                R.id.ic__explore -> makeCurrentFragment(exploreFragment)
+                R.id.ic__map -> makeCurrentFragment(mapFragment)
             }
             true
         }
